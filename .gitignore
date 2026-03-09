@@ -1,0 +1,84 @@
+# Dependencies
+node_modules/
+
+# Build / output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend (Vite etc.)
+frontend/dist/
+frontend/node_modules/
+.vite/
+
+# Backend (.NET)
+backend/bin/
+backend/obj/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]uild/
+bld/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.dll
+*.pdb
+*.cache
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Testing / coverage
+coverage/
+.nyc_output/
+*.lcov
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+*.local
+.cache/
